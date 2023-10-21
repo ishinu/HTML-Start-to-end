@@ -7,3 +7,5 @@
 2. Second commit covers : `CSS, Quotations and links`
 
 <img src="https://github.com/ishinu/HTML-Start-to-end/assets/100218218/3afbaefa-a124-4024-a636-1b9489bcfbbb" alt="Image" width="720" height="450">
+
+3. Third commit covers : `Anchor tag, Image properties & mapping`
