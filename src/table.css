@@ -1,0 +1,15 @@
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+}
+
+
+
+tr:hover{
+    background-color: skyblue;
+}
+
+td:nth-child(even){
+    background-color: olivedrab;
+}
