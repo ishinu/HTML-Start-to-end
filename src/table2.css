@@ -1,0 +1,16 @@
+table,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: wheat;
+}
+td:nth-child(even),th:nth-child(even){
+    background-color: cadetblue ;
+}
+tr:hover{
+    background-color: violet;
+}
+td{
+    text-align:center;
+}
