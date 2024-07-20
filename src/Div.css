@@ -1,0 +1,33 @@
+.styling{
+    background-color:wheat;
+    color:black;
+    width:300px;
+    margin:auto;
+}
+
+.mycontainer{
+    width:100%;
+    overflow:auto;
+}
+
+.mycontainer div{
+    width:33%;
+    float:left;
+}
+
+.inlineprop div{
+    width:33%;
+    display:inline-block;
+}
+
+.flexprop{
+    display:flex;
+}
+.flexprop div{
+    width:33%;
+}
+
+.gridprop{
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+}
