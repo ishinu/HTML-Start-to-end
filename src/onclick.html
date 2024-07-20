@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick</title>
+</head>
+<body>
+    <button onclick="myFunction()">Hide Elements</button>
+    <h1 class="city">London</h1>
+    <p>The Capital city of England</p>
+    <p>Has over 13 million inhabitants.</p><br><br>
+    <h1 class="city">Oslo</h1>
+    <p>The Capital city of Norway</p>
+    <p>Has over 600k inhabitants.</p><br><br>
+    <h1 class="city">Rome</h1>
+    <p>The Capital city of Italy</p>
+    <p>Has over 3 million inhabitants.</p><br><br>
+    <h1 id="myHeader">Hello World</h1>
+    <button onclick="displayResult()">Change text</button>
+    <script>
+        function myFunction(){
+            var x= document.getElementsByClassName("city");
+            for(var i = 0;i < x.length;i++){
+                x[i].style.display="none";
+            }
+        }
+        function displayResult(){
+            document.getElementById("myHeader").innerHTML="Have a Nice Day!";
+        }
+    </script>
+</body>
+</html>
